@@ -13,34 +13,34 @@
   
   * Clase Dado
       - Atributo:
-        valorCaraSuperior: int
+        - valorCaraSuperior: int
       - Métodos:
-        lanzar(): void → genera un número aleatorio entre 1 y 6
-        getValor(): int → retorna el valor de la cara superior
+        - lanzar(): void → genera un número aleatorio entre 1 y 6
+        - getValor(): int → retorna el valor de la cara superior
   * Clase Calculadora
       - Atributos:
-         No posee
+         - No posee
       - Métodos:
-        sumar(a: int, b: int): int → retorna la suma de dos enteros
+        - sumar(a: int, b: int): int → retorna la suma de dos enteros
   * Clase JuegoDeDados
       - Atributos:
-        dado1: Dado
-        dado2: Dado
-        calculadora: Calculadora
+        - dado1: Dado
+        - dado2: Dado
+        - calculadora: Calculadora
       - Métodos:
-        jugar(): String → lanza ambos dados, suma los valores y retorna si ganaste o perdiste
+        - jugar(): String → lanza ambos dados, suma los valores y retorna si ganaste o perdiste
   * Inicio:
       - Atributos:
-        juego: JuegoDeDados →  instancia del juego que se ejecutará.
+        - juego: JuegoDeDados →  instancia del juego que se ejecutará.
       - Método:
-        main(String[] args): void → ejecuta el juego
+        - main(String[] args): void → ejecuta el juego
   * JuegoDeDadosTest:
       - Atributos:
-        No posee
+        - No posee
       - Método:
-        testValoresDadosEstanEnRango(): void → Verifica que el valor generado por un dado esté siempre entre 1 y 6.
-        testSumaCorrectaDeValores(): void → Comprueba que la suma realizada por la calculadora sea correcta.
-        testResultadoDelJuego(): void → Evalúa que el juego retorne el resultado correcto (ganar o perder) para un caso controlado.
+        - testValoresDadosEstanEnRango(): void → Verifica que el valor generado por un dado esté siempre entre 1 y 6.
+        - testSumaCorrectaDeValores(): void → Comprueba que la suma realizada por la calculadora sea correcta.
+        - testResultadoDelJuego(): void → Evalúa que el juego retorne el resultado correcto (ganar o perder) para un caso controlado.
     
   
 - Identifique y defina las relaciones entre clases presentes en este caso.
