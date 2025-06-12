@@ -12,32 +12,32 @@
 - Establezca los atributos y métodos para c/CLASE.
   
   * Clase Dado
-      Atributo:
+      - Atributo:
         valorCaraSuperior: int
-      Métodos:
+      - Métodos:
         lanzar(): void → genera un número aleatorio entre 1 y 6
         getValor(): int → retorna el valor de la cara superior
   * Clase Calculadora
-      Atributos:
+      - Atributos:
          No posee
-      Métodos:
+      - Métodos:
         sumar(a: int, b: int): int → retorna la suma de dos enteros
   * Clase JuegoDeDados
-      Atributos:
+      - Atributos:
         dado1: Dado
         dado2: Dado
         calculadora: Calculadora
-      Métodos:
+      - Métodos:
         jugar(): String → lanza ambos dados, suma los valores y retorna si ganaste o perdiste
   * Inicio:
-      Atributos:
+      - Atributos:
         juego: JuegoDeDados →  instancia del juego que se ejecutará.
-      Método:
+      - Método:
         main(String[] args): void → ejecuta el juego
   * JuegoDeDadosTest:
-      Atributos:
+      - Atributos:
         No posee
-      Método:
+      - Método:
         testValoresDadosEstanEnRango(): void → Verifica que el valor generado por un dado esté siempre entre 1 y 6.
         testSumaCorrectaDeValores(): void → Comprueba que la suma realizada por la calculadora sea correcta.
         testResultadoDelJuego(): void → Evalúa que el juego retorne el resultado correcto (ganar o perder) para un caso controlado.
