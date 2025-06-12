@@ -31,7 +31,7 @@
         - jugar(): String → lanza ambos dados, suma los valores y retorna si ganaste o perdiste
   * Inicio:
       - Atributos:
-        - juego: JuegoDeDados →  instancia del juego que se ejecutará.
+        - No posee
       - Método:
         - main(String[] args): void → ejecuta el juego
   * JuegoDeDadosTest:
